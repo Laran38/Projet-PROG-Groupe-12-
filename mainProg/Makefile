@@ -4,6 +4,8 @@ CFLAGS=-Wall -Werror
 COMPILE=$(CC) $(CFLAGS) -o $@ -c $<
 main: PartieAffichage
 
+COUCOU SEVKET
+
 Fusion: FusionPart1.o afficherRealocation.o afficher_sym.o afficherData.o afficherEntete.o afficherTableSections.o big_endian.o utilsP.o
 	$(CC) -o $@ $^
 
