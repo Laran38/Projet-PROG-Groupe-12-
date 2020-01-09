@@ -13,6 +13,7 @@ PartieAffichage: mainProg.o afficherRealocation.o afficher_sym.o afficherData.o 
 mainProg.o: mainProg.c utilsP.h afficherEntete.h afficherTableSections.h afficherData.h afficher_sym.h afficherRealocation.h
 	$(COMPILE)
 
+
 FusionPart1.o: fusionPart1.c utilsP.h afficherEntete.h afficherTableSections.h afficherData.h afficher_sym.h afficherRealocation.h
 	$(COMPILE)
 
